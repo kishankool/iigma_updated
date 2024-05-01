@@ -6,7 +6,7 @@ import courseImage3 from '../../../../public/course/3.jpg'
 import courseImage4 from '../../../../public/course/4.jpg'
 import courseImage5 from '../../../../public/course/5.jpg'
 import styles from './certifiacte.module.css'
- 
+import Link from 'next/link' 
 
 const Courses = () => {
     return (
@@ -29,7 +29,7 @@ const Courses = () => {
                                 </ul>
                                 <div className="courses-fee">₹ 3500</div>
                                 <a href="https://forms.gle/EFZ7sqa18MXtkJxJ9" target="_blank" className={styles.button_c} rel="noreferrer">Enroll Now</a>
-                                <a href="cgf.html" target="_blank" className={styles.button_c}>Details</a>
+                                <Link href="/detailpage"  className={styles.button_c}>Details</Link>
                             </div>
                         </div>
                     </div>
