@@ -171,8 +171,8 @@ function Footer() {
               <div className="footer-box">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.01920351879!2d81.0260073755849!3d26.934605676634174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399959e3831a6b9d%3A0x950039746a93267f!2sThe%20Goat%20Trust%20Goat%20Gurukul!5e0!3m2!1sen!2sin!4v1698834134707!5m2!1sen!2sin"
-                  width="400"
-                  height="300"
+                  // width="400"
+                  // height="300"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
