@@ -1,0 +1,16 @@
+.course_detail_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Aligns items at the start and end of the container */
+    padding: 2rem;
+  }
+  .course_detail {
+    width:80%;
+    padding: 1rem;
+    flex: 1;
+
+  }
+  
+  .payment_section {
+    width: 20%;
+  }

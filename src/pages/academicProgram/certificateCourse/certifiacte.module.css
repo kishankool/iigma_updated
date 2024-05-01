@@ -1,0 +1,16 @@
+.button_c {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust margin as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+.button_c:hover {
+    background-color: #0056b3;
+}

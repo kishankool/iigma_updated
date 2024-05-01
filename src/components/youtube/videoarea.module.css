@@ -1,0 +1,32 @@
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Adding background color */
+    border-radius: 10px; /* Adding border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+  }
+  .video_card,
+  .content-card {
+    flex: 1;
+    padding: 20px; /* Adding padding to cards */
+    background-color: #fff; /* Adding background color to cards */
+    border-radius: 8px; /* Adding border radius to cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow to cards */
+  }
+  .video_card {
+    margin-right: 20px; /* Adding space between cards */
+  }
+  .content_card {
+    margin-left: 20px; /* Adding space between cards */
+  }
+  @media screen and (max-width: 767px) {
+    /* CSS code to apply when width is less than 767 pixels */
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
