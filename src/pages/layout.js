@@ -1,5 +1,5 @@
 // layout.js
-import { metadata } from './metaData';
+import { metadata } from '../components/PaymentPopUp/utils/metaData';
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Script from "next/script";
