@@ -1,11 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRss } from "@fortawesome/free-solid-svg-icons";
+
+
 import {
   faFacebook,
   faTwitter,
   faLinkedin,
   faPinterest,
-  faRss,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -134,7 +136,7 @@ function Footer() {
                       aria-hidden="true"
                       style={{ color: "#fdc800" }}
                     />
-                    <a href="tel:(01)800433633"> 9565777770 </a>
+                    <a href="tel:(01)800433633"> {phoneNumber} </a>
                   </li>
                   <li>
                     <FontAwesomeIcon
@@ -142,7 +144,7 @@ function Footer() {
                       aria-hidden="true"
                       style={{ color: "#fdc800" }}
                     />
-                    info@iigminstitute.com
+                    {email}
                   </li>
                 </ul>
                 <div className="newsletter-area">
