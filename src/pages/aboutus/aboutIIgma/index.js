@@ -4,6 +4,7 @@ import Image1 from '../../../../public/about/2.jpg';
 import Image from 'next/image';
 import { FaGraduationCap, FaUser, FaBook } from 'react-icons/fa';
 import styles from './styles.module.css';
+import Whatsaap from '../../../../public/whatsapp-icon.png'
 
 const AboutIIGMA = () => {
     return (
@@ -11,7 +12,7 @@ const AboutIIGMA = () => {
             <AboutUsNav pageName="About Us" pageType="About"/>
             <div id="whatsapp-icon">
                 <a href="https://api.whatsapp.com/send?phone=9565777770&text=I%20want%20to%20enquire%20about%20courses" target="_blank" rel="noreferrer">
-                    <Image src="/whatsapp-icon.png" alt="WhatsApp Icon" />
+                    <Image src={Whatsaap} alt="WhatsApp Icon" />
                 </a>
             </div>
 
