@@ -1,0 +1,35 @@
+/* components/NavBar.module.css */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c56262; /* Background color */
+    padding: 10px 0; /* Add some padding */
+  }
+  
+  .navlist {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navlist li {
+    padding: 10px;
+    cursor: pointer;
+    color: #333; /* Default color */
+    transition: color 0.3s; /* Smooth transition */
+    border-right: 1px solid #ccc; /* Add right border */
+  }
+  
+  .navlist li:hover {
+    color: #555; /* Change color on hover */
+  }
+  
+  .navlist li.active {
+    color: blue; /* Change color for active item */
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
