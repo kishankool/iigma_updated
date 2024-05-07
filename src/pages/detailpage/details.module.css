@@ -14,3 +14,19 @@
   .payment_section {
     width: 20%;
   }
+  @media only screen and (max-width: 600px) {
+    .course_detail_price {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .course_detail
+    {
+      width: 100%;
+      padding: 0px;
+    }
+    .payment_section{
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  
