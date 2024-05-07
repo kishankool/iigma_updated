@@ -1,0 +1,21 @@
+/* components/SkilledLecturers.module.css */
+.lecturersList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lecturer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Adjust spacing between lecturers */
+  }
+  
+  .lecturerContent {
+    text-align: center; /* Center align text */
+  }
+  
+  .lecturerImage {
+    margin-bottom: 10px; /* Add space between image and text */
+  }
+  

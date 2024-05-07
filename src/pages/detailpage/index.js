@@ -4,6 +4,7 @@ import Payment from '../../components/paymentPage/index'
 import AboutUsNav from '../../components/aboutUsNav/index'
 import SidebarBox from '@/components/sideBar';
 import CourseFormat from '@/components/courseFomat';
+import NavComponenet from '../../components/componentTab/index'
 
 const DetailPage = () => {
   return (
@@ -26,7 +27,7 @@ const DetailPage = () => {
           frameBorder="0" 
           allowfullscreen
         ></iframe>
-        <CourseFormat />
+         <NavComponenet/>       
       </div>
       </div>
       <div className={styles.payment_section}>
