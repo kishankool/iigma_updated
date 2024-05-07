@@ -11,7 +11,7 @@ const Features = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4
+      items: 3
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -30,27 +30,27 @@ const Features = () => {
       <div className={styles.card}>
       <Image className={styles.product_image} src={Image1} alt="product image" />
       <h2 className={styles.font_size}>Livestock Entrepreneurship And Business Management</h2>
-      <p>
+      <p className={styles.alignMentOfText}>
       Livestock Entrepreneurship And Business Management
 This is the Flagship course of IIGMA. Be employment ready with a 6 months rigorous module on all facets of Livestock Entrepreneurship and Business Management.
         </p>
       </div>
       <div className={styles.card}>
       <Image className={styles.product_image} src={Image2} alt="product image" />
-      <h2 className={styles.font_size}>Livestock Entrepreneurship And Business Management</h2>
-      <p>Livestock Entrepreneurship And Business Management
+      <h2 className={styles.font_size} >Livestock Entrepreneurship And Business Management</h2>
+      <p className={styles.alignMentOfText}>Livestock Entrepreneurship And Business Management
 This is the Flagship course of IIGMA. Be employment ready with a 6 months rigorous module on all facets of Livestock Entrepreneurship and Business Management.</p>
       </div>
       <div className={styles.card}>
       <Image className={styles.product_image} src={Image3} alt="product image" />
       <h2 className={styles.font_size}>Livestock Entrepreneurship And Business Management</h2>
-      <p>Livestock Entrepreneurship And Business Management
+      <p className={styles.alignMentOfText}>Livestock Entrepreneurship And Business Management
 This is the Flagship course of IIGMA. Be employment ready with a 6 months rigorous module on all facets of Livestock Entrepreneurship and Business Management.</p>
       </div>
       <div className={styles.card}>
       <Image className={styles.product_image} src={Image4} alt="product image" />
       <h2 className={styles.font_size}>Livestock Entrepreneurship And Business Management</h2>
-      <p>Livestock Entrepreneurship And Business Management
+      <p className={styles.alignMentOfText}>Livestock Entrepreneurship And Business Management
 This is the Flagship course of IIGMA. Be employment ready with a 6 months rigorous module on all facets of Livestock Entrepreneurship and Business Management.</p>
       </div>
     </Carousel>

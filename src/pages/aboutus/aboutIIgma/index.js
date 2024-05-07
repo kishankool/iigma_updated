@@ -23,7 +23,7 @@ const AboutIIGMA = () => {
                             <div className="about-page-content-holder">
                                 <div className="content-box">
                                     <h2>About</h2>
-                                    <p>International Institute of Goat Management (IIGMA) started as an academic and
+                                    <p className={styles.alignMentOfText}>International Institute of Goat Management (IIGMA) started as an academic and
                                         training wing of The Goat Trust (TGT). It has grown since and now provides several
                                         short-term and need-based certificate courses in the Field of Livestock Business
                                         Management, Livestock
@@ -54,7 +54,7 @@ const AboutIIGMA = () => {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div className="about-box">
                                 <h2 className="title-bar-medium-left "><a href="#">Our History</a></h2>
-                                <p>International institute of Goat Management (IIGMA) has a rich and distinctive history that
+                                <p className={styles.alignMentOfText}>International institute of Goat Management (IIGMA) has a rich and distinctive history that
                                     traces its origins to its inception as the training wing of The Goat Trust. Founded with
                                     a noble vision, IIGMA was established to cultivate capable and forward-thinking
                                     professionals who could lead grassroots interventions in the realm of goat management
@@ -67,7 +67,7 @@ const AboutIIGMA = () => {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div className="about-box">
                                 <h2 className="title-bar-medium-left "><a href="#">Our Alumnis</a></h2>
-                                <p>IIGMA in the past 5 years have nurtured and mentored over 300+ professionals who have
+                                <p className={styles.alignMentOfText}>IIGMA in the past 5 years have nurtured and mentored over 300+ professionals who have
                                     contributed to the sector through their respective organizations in meaningful ways.
                                     Students of Livestock Entrepreneurship and Business Management , a six month certificate
                                     course on various livestock based business and livelihood models gives ample capacity,
@@ -81,7 +81,7 @@ const AboutIIGMA = () => {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div className="about-box">
                                 <h2 className="title-bar-medium-left "><a href="#">Our Campus</a></h2>
-                                <p>The Institute is located on a verdant campus 8 Kms from Munshi Pulia Metro Station . The
+                                <p className={styles.alignMentOfText}>The Institute is located on a verdant campus 8 Kms from Munshi Pulia Metro Station . The
                                     entire Solar Powered and Wi-Fi enabled campus houses the faculty residences, office
                                     complex, library and computer center complex, digital class room complex, residences for
                                     gents, ladies. The Institute has a floodlit volley ball court, Field Practice Farm, and
@@ -97,7 +97,7 @@ const AboutIIGMA = () => {
             <div className="about2-area">
                 <div className="container">
                     <h1 className="about-title">Why Choose Us?</h1>
-                    <p className="about-sub-title">Welcome to India&apos;s first practice focused institute in livestock and natural
+                    <p className={styles.alignMentOfText} >Welcome to India&apos;s first practice focused institute in livestock and natural
                         resource Entrepreneurship and Management with a mission to build capable and committed professionals
                         through innovation in imparting education, training and research. </p>
                 </div>
@@ -111,7 +111,7 @@ const AboutIIGMA = () => {
                                         <a href="#"><FaGraduationCap className={styles.blue_icon}/></a>
                                     </div>
                                     <h3><a href="#">Philosophy Of Entrepreneurship</a></h3>
-                                    <p>Building competent professionals for implementations,research and Entrepreneurial
+                                    <p className={styles.alignMentOfText}>Building competent professionals for implementations,research and Entrepreneurial
                                         initiatives in natural resource management domain.</p>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ const AboutIIGMA = () => {
                                         <a href="#"><FaUser className={styles.blue_icon} /></a>
                                     </div>
                                     <h3><a href="#">School Of Practice</a></h3>
-                                    <p>Combining traditional wisdom and practices of natural resource management to foster
+                                    <p className={styles.alignMentOfText}>Combining traditional wisdom and practices of natural resource management to foster
                                         culture of innovation, integration,partnerships and sustainability.</p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ const AboutIIGMA = () => {
                                         <a href="#"><FaBook className={styles.blue_icon}/></a>
                                     </div>
                                     <h3><a href="#">Futuristic Hybrid Learning</a></h3>
-                                    <p>Experience the joy of hands on exposure on the ground supported with latest digital tools
+                                    <p className={styles.alignMentOfText}>Experience the joy of hands on exposure on the ground supported with latest digital tools
                                         for perfect learning and doing.
                                     </p>
                                 </div>
