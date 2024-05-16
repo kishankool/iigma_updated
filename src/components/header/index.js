@@ -55,7 +55,7 @@ export default function Header() {
                     </li>
                     <li>
                       <div className="apply-btn-area">
-                        <a href="cgf.html" className="apply-now-btn">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR7U0HipoGZJuTmr2RM9mBpVqx6-wgt-qI1GJwNJcluXKE5Q/viewform" className="apply-now-btn">
                           Apply Now
                         </a>
                       </div>
