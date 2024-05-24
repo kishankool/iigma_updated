@@ -3,8 +3,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import styles from './nav.module.css';
 import { useState } from 'react';
-import ImageUrl from '../../../public/logo-primary.png'
-import Image from 'next/image'
+import Image from 'next/image';
 
 const MenuBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,59 +28,76 @@ const MenuBar = () => {
       </div>
       <ul className={`${styles.menuList} ${isMenuOpen ? styles.menuOpen : ''}`}>
         <li className={styles.menuItem}>
-          <Link href="/">Home</Link>
+          <Link href="/">HOME</Link>
         </li>
-        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('services1')}>
-          <span>Services</span>
-          <ul className={`${styles.subMenuList} ${subMenuStates.services1 ? styles.subMenuOpen : ''}`}>
+        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('about')}>
+          <span>ABOUT</span>
+          <ul className={`${styles.subMenuList} ${subMenuStates.about ? styles.subMenuOpen : ''}`}>
             <li className={styles.subMenuItem}>
-              <Link href="/services/service1">Service 1</Link>
+              <Link href="/aboutus/aboutIIgma">ABOUT IIGMA</Link>
             </li>
             <li className={styles.subMenuItem}>
-              <Link href="/services/service2">Service 2</Link>
+              <Link href="/aboutus/vision">VISION</Link>
             </li>
             <li className={styles.subMenuItem}>
-              <Link href="/services/service3">Service 3</Link>
+              <Link href="/aboutus/directorsMessage">BOARD OF ADVISORS</Link>
+            </li>
+            <li className={styles.subMenuItem}>
+              <Link href="/aboutus/recognition">RECOGNITION</Link>
             </li>
           </ul>
         </li>
-        <li className={styles.menuItem}>
-          <Link href="/contact">Contact</Link>
-        </li>
-        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('services2')}>
-          <span>Other Services</span>
-          <ul className={`${styles.subMenuList} ${subMenuStates.services2 ? styles.subMenuOpen : ''}`}>
+        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('academicPrograms')}>
+          <span>ACADEMIC PROGRAMS</span>
+          <ul className={`${styles.subMenuList} ${subMenuStates.academicPrograms ? styles.subMenuOpen : ''}`}>
             <li className={styles.subMenuItem}>
-              <Link href="/other-services/service1">Service 1</Link>
+              <Link href="/academicProgram/certificateCourse">Certificate Course</Link>
             </li>
             <li className={styles.subMenuItem}>
-              <Link href="/other-services/service2">Service 2</Link>
-            </li>
-            <li className={styles.subMenuItem}>
-              <Link href="/other-services/service3">Service 3</Link>
+              <Link href="/academicProgram/pgDiploma">PG Diploma</Link>
             </li>
           </ul>
         </li>
-        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('services3')}>
-          <span>Additional Services</span>
-          <ul className={`${styles.subMenuList} ${subMenuStates.services3 ? styles.subMenuOpen : ''}`}>
+        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('faculties')}>
+          <span>FACULTIES</span>
+          <ul className={`${styles.subMenuList} ${subMenuStates.faculties ? styles.subMenuOpen : ''}`}>
             <li className={styles.subMenuItem}>
-              <Link href="/additional-services/service1">Service 1</Link>
+              <Link href="/faculties/facultyProfile">Faculty Profile</Link>
             </li>
             <li className={styles.subMenuItem}>
-              <Link href="/additional-services/service2">Service 2</Link>
+              <Link href="/faculties/visitingFaculty">Visiting Faculty</Link>
+            </li>
+          </ul>
+        </li>
+        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('studentAndAlumni')}>
+          <span>STUDENT AND ALUMNI</span>
+          <ul className={`${styles.subMenuList} ${subMenuStates.studentAndAlumni ? styles.subMenuOpen : ''}`}>
+            <li className={styles.subMenuItem}>
+              <Link href="/studentAndAlumni/batchProfile">Batch Profile</Link>
             </li>
             <li className={styles.subMenuItem}>
-              <Link href="/additional-services/service3">Service 3</Link>
+              <Link href="/studentAndAlumni/internship">Internship</Link>
+            </li>
+            <li className={styles.subMenuItem}>
+              <Link href="/studentAndAlumni/infrastructure">Infrastructure</Link>
+            </li>
+            <li className={styles.subMenuItem}>
+              <Link href="/studentAndAlumni/placement">Placements</Link>
+            </li>
+          </ul>
+        </li>
+        <li className={`${styles.menuItem} ${styles.hasSubMenu}`} onClick={() => toggleSubMenu('admissions')}>
+          <span>ADMISSIONS</span>
+          <ul className={`${styles.subMenuList} ${subMenuStates.admissions ? styles.subMenuOpen : ''}`}>
+            <li className={styles.subMenuItem}>
+              <Link href="/admissions/courseLebm">Course LEBM</Link>
+            </li>
+            <li className={styles.subMenuItem}>
+              <Link href="/admissions/PgDeploma">PG Diploma</Link>
             </li>
           </ul>
         </li>
       </ul>
-      <div className={styles.logoContainer}>
-        <Link href="/">
-          <Image src={ImageUrl} alt="Logo" className={styles.logo} />
-        </Link>
-      </div>
     </nav>
   );
 };

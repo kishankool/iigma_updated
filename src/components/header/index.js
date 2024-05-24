@@ -70,7 +70,7 @@ export default function Header() {
         </div>
         <NavBar/>
 
-        <div className="main-menu-area bg-textPrimary" id="sticker">
+        {/* <div className="main-menu-area bg-textPrimary" id="sticker">
           <div className="container">
             <div className="row">
               <div className="col-lg-2 col-md-3">
@@ -163,7 +163,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="mobile-menu-area">
         <div className="container">

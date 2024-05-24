@@ -54,6 +54,7 @@
   list-style: none;
   margin: 0;
   padding: 10px;
+  z-index: 10; /* Ensure the submenu is on top */
 }
 
 .subMenuItem {
@@ -125,6 +126,7 @@
     list-style: none;
     margin: 0;
     padding: 10px;
+    z-index: 10; /* Ensure the submenu is on top */
   }
 
   .menuOpen .subMenuList {
