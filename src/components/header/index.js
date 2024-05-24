@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Link from 'next/link'
+import NavBar from '../../components/navBar/index'
 
 export default function Header() {
   return (
@@ -67,8 +68,9 @@ export default function Header() {
             </div>
           </div>
         </div>
+        <NavBar/>
 
-        <div className="main-menu-area bg-textPrimary" id="sticker">
+        {/* <div className="main-menu-area bg-textPrimary" id="sticker">
           <div className="container">
             <div className="row">
               <div className="col-lg-2 col-md-3">
@@ -161,9 +163,9 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="mobile-menu-area">
+      {/* <div className="mobile-menu-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -251,7 +253,8 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+       
+      </div> */}
     </>
   );
 }
